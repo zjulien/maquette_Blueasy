@@ -1,0 +1,427 @@
+/////////POLICE////////////
+@font-face {
+    font-family: "segoe ui";
+    src: url("../font/Segoe UI.woff");
+}
+
+@font-face {
+    font-family: "segoe ui blod";
+    src: url("../font/Segoe UI Bold.woff");
+}
+
+@font-face {
+    font-family: "segoe ui light";
+    src: url("../font/Segoe UI Light.woff")
+}
+
+// //////REGLE GENERAL//////
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    list-style: none;
+}
+
+.lehrblanc {
+    width: 45px;
+    margin-bottom: 3%;
+    border: white solid 1px;
+}
+
+.lehrnoir {
+    width: 45px;
+    margin-bottom: 3%;
+    border: black solid 1px;
+}
+
+body {
+
+    /////////////////////////////////////////HEADER////////////////////////////////////
+    header {
+        background-image: url("../img/background_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 679px;
+        color: white;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        .barre {
+            background-color: #414b53;
+            opacity: 0.6;
+            font-size: bold;
+
+            nav {
+                height: 117px;
+
+                .navbar-brand {
+                    font-size: 30px;
+                    font-family: 'segoe ui';
+                    font-size: bold;
+                }
+
+                .nav-item {
+
+                    font-size: 14px;
+                    font-family: 'segoe ui';
+
+                }
+
+                span {
+                    color: #6fa2cc;
+                }
+            }
+        }
+
+        ///////////////////////////TITRE///////////////////////////
+        #hero {
+            height: 100vh;
+            border: solid 1px black;
+            padding-top: 196px;
+
+            .titre {
+                background-color: #475159;
+            }
+
+            h1 {
+                margin-left:auto;
+                margin-right:auto;
+                font-size: 42px;
+                font-family: 'segoe ui';
+            }
+            @media screen and (max-width: 768px) {
+                h1 {
+                  font-size:20px;
+                }
+              }
+              @media screen and (max-width: 576px) {
+                h1 {
+                  font-size:20px;
+                }
+              }
+        }
+    }
+
+    ////////////////////////////FIN HEADER////////////////////////////////
+    ////////////////////////////////////SECTION SERVICE/////////////////////////////////
+    #section1 {
+        height: 400px;
+        background-color: #4bcaff;
+        color: white;
+
+        h2 {
+            font-family: 'segoe ui light';
+
+        }
+
+        // #listport{
+        //     padding-top: 26px;
+        //     padding-left: 97px;
+        // }
+
+
+        .container {
+
+            padding-top: 28px;
+        }
+
+        p {
+            font-size: 12px;
+            font-family: 'segoe ui';
+        }
+
+        h3 {
+            padding-top: 24px;
+            font-size: 24px;
+        }
+    }
+
+    ///////////////////////////PORTFOLIO///////////////////////////////////////////////
+    #section2 {
+        height: 840px;
+        background-color: white;
+
+        h3 {
+            padding-top: 26px;
+            font-size: 30px;
+            font-family: 'segoe ui';
+        }
+
+        @media screen and (max-width: 991px) {
+            #myBtnContainer {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        .btn {
+            border: solid 2px transparent;
+            padding: 6px 16px;
+            font-size: 14px;
+            margin-left: 3px;
+            margin-right: 3px;
+            color: var(--grey-color);
+            font-family: "Segoe UI Bold";
+            outline: none;
+            border-radius: 0px;
+        }
+
+        .btn:hover {
+            border: solid 2px var(--blue-color);
+            color: var(--blue-color);
+        }
+
+        .btnactive {
+            border: solid 2px var(--blue-color);
+            color: var(--blue-color);
+            box-shadow: 0 0 0 0;
+        }
+    }
+        img {
+            margin: 10px;
+            width:100%;
+        }
+        
+    }
+
+    //////////////////////////////SECTION JUST DEFAULT/////////////////////////////////////
+    #section3 {
+        background-color: #515f67;
+        color: white;
+        min-height: 472px;
+        
+        h3 {
+            font-size: 30px;
+            font-family: 'segoe ui';
+        }
+        p{
+            font-size:14px;
+            font-family:'segoe ui';
+        }
+
+        #paragraphvisitme {
+            height: 100%;
+        }
+
+        #justdefault {
+            height: 100%;
+        }
+
+        #default {
+            // height: 100%;
+            height: 68%;
+            margin-top: 6%;
+        }
+
+        button {
+            width: 30%;
+            border-color: black;
+            background-color: transparent;
+            padding: 8px;
+        }
+    }
+
+    ///////////////////////////////////SECTION TWITTER//////////////////////////////////////////////
+    #section4 {
+        height: 305px;
+        background-color: #4bcaff;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            margin-right: -2%;
+        }
+
+        #twitter {
+            padding-top: 5%;
+            font-size: 28px;
+
+            i{
+                padding-left:520px;
+                
+            }
+            @media screen and (max-width: 768px) {
+                i{
+                 padding-left:100px;
+
+        }
+    }
+
+    }
+
+}
+
+    ///////////////////////////////SECTION JOHN DOE///////////////////////////////////////////////
+    #section5 {
+        min-height: 497px;
+        background-image: url("../img/who_is.png");
+        background-repeat: no-repeat;
+        max-width: 100%;
+        font-family: "segoe ui";
+        background-size: cover;
+        color:white !important;
+
+        #johndoe {
+            padding-top: 38px;
+            padding-left: 9%;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: "segoe ui light"
+        }
+
+
+        .listdescription {
+            #listsocial {
+                font-size: 28px;
+
+                i {
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    border-width: 2px;
+                    border-style: ridge;
+                    border-color: white;
+                    padding: 13px;
+                    margin-top: 4%;
+                    height: 58px;
+                    width: 62px;
+                }
+               
+        
+            }
+
+            @media screen and (max-width: 768px) {
+                #listsocial{
+                    display:flex;
+                    flex-direction:column;
+                  font-size:15px;
+                }
+              }
+        }
+    }
+
+    /////////////////////////////////////SECTION TESTIMONIALS/////////////////////////////////////
+    #testimonial {
+        background-color: white;
+        color: black;
+        padding: 70px 0px;
+        font-family: "Segoe UI";
+        font-weight: 400;
+   
+        .topsection {
+   
+            height: auto;
+   
+            h2 {
+                padding: 0;
+                margin-bottom: 2px;
+                font-family: "Segoe UI Light";
+                font-weight: 400;
+            }
+   
+            #quotes {
+                font-size: 28px;
+                color: black;
+            }
+        }
+   
+        hr {
+            border: solid 1px var(--grey-color) !important;
+            width: 42px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+   
+        p {
+            font-size: 27px;
+            font-family: "Segoe UI Light";
+            font-weight: 400;
+        }
+   
+        #author {
+            font-family: "Segoe UI Bold";
+            font-weight: 400;
+            font-size: 14px;
+            color: var(--blue-color);
+            margin-top: 25px;
+        }
+    }
+    ///////////////////////////SECTION CONTACT////////////////////////////////////////////////
+    #contact {
+        background-image: url("../img/hoverBackground_contact.png");
+        background-size: cover;
+        background-position: top;
+        padding: 70px 0px;
+        color: white;
+        font-family: "segoe ui";
+        
+        h2 {
+            font-family: "segoe ui";
+        }
+
+        .column2 {
+            text-decoration: none;
+        }
+
+        #textarealabel {
+            margin-top: 50px;
+        }
+
+        .btnsubmit {
+            margin-top: 20px;
+        }
+
+
+        button {
+            background-color: #4bcaff;
+            border: none;
+            height: 59px;
+            width: 370px;
+        }
+        @media screen and (max-width: 768px) {
+            p,ul{
+             display:none;
+
+    }
+}
+
+        #exampleFormText {
+            width: 100%;
+            height: 57px;
+            color:white;
+        }
+
+        #exampleFormControlInput1 {
+            width: 100%;
+            height: 57px;
+            color:white;
+        }
+        #message{
+            color:white;
+        }
+        
+    }
+
+    ///////////////////////////////////////////////////////FOOTER////////////////////////////////
+    footer {
+        height: 169px;
+        background-color: #353f47;
+        padding: 50px 0px;
+        color: grey;
+
+        a {
+            color: grey;
+            font-size: 14px;
+        }
+
+        .firstlink {
+            padding-left: 10px !important;
+        }
+    }
