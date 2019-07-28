@@ -103,6 +103,11 @@ body #section1 {
   background-color: #4bcaff;
   color: white;
 }
+@media screen and (max-width: 991px) {
+ body #section1 {
+   height: 799px;
+   }
+}
 
 body #section1 h2 {
   font-family: 'segoe ui light';
@@ -126,24 +131,31 @@ body #section2 {
   height: 840px;
   background-color: white;
 }
-
+@media screen and (max-width: 991px) {
+  body #section2 {
+      text-align:center;
+  }
+}
 body #section2 h3 {
   padding-top: 26px;
   font-size: 30px;
   font-family: 'segoe ui';
 }
+body #section2 .alignehrh3{
+  padding-left: 25px;
+}
 
 @media screen and (max-width: 991px) {
-  #section2 .topsection #myBtnContainer {
-    margin-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  body #section2 .alignehrh3 {
+    padding-left: 13px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body #section2 #myBtnContainer {
+    padding-top: 2%;
+    display: flex !important;
+    flex-direction: row !important;
   }
 }
 
@@ -204,6 +216,12 @@ body #section3 #default {
   margin-top: 6%;
 }
 
+@media screen and (max-width: 991px) {
+  body #section3 #video {
+      margin-bottom: 7%;
+  }
+}
+
 body #section3 button {
   width: 30%;
   border-color: black;
@@ -215,7 +233,11 @@ body #section4 {
   height: 305px;
   background-color: #4bcaff;
 }
-
+@media screen and (max-width: 991px) {
+ body #section4 {
+      height: 338px;
+  }
+}
 body #section4 h3 {
   font-size: 30px;
 }
@@ -262,6 +284,15 @@ body #section5 h3 {
 body #section5 .listdescription #listsocial {
   font-size: 28px;
 }
+
+@media screen and (max-width: 991px) {
+  body #section5 .listdescription #listsocial{
+       display: flex !important;
+flex-direction: row !important;
+margin-bottom: 5%;
+   }
+ }
+
 
 body #section5 .listdescription #listsocial i {
   margin-right: 10px;
@@ -357,7 +388,11 @@ body #contact #textarealabel {
 body #contact .btnsubmit {
   margin-top: 20px;
 }
-
+@media screen and (max-width: 991px) {
+  body #contact .btnsubmit {
+    width: 92vw;
+    }
+  }
 body #contact button {
   background-color: #4bcaff;
   border: none;
@@ -382,9 +417,15 @@ body #contact #exampleFormControlInput1 {
   height: 57px;
   color: white;
 }
+@media screen and (max-width: 991px) {
+  body #contact .btnsubmit {
+    width: 92vw;
+    }
+  }
 
-body #contact #message {
-  color: white;
+
+body #contact #exampleFormControlInput1 {
+  width: 92vw;
 }
 
 body footer {
@@ -393,6 +434,16 @@ body footer {
   padding: 50px 0px;
   color: grey;
 }
+
+@media screen and (max-width: 991px) {
+  body footer ul {
+    width: 91vw;
+display: flex !important;
+flex-direction: row !important;
+height: 12vh;
+    }
+  }
+
 
 body footer a {
   color: grey;

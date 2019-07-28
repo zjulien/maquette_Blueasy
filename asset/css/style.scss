@@ -110,7 +110,11 @@ body {
         height: 400px;
         background-color: #4bcaff;
         color: white;
-
+    @media screen and (max-width: 991px) {
+       #section1 {
+        height: 799px;
+        }
+    }
         h2 {
             font-family: 'segoe ui light';
 
@@ -137,17 +141,29 @@ body {
             font-size: 24px;
         }
     }
+   
 
     ///////////////////////////PORTFOLIO///////////////////////////////////////////////
     #section2 {
         height: 840px;
         background-color: white;
 
+        @media screen and (max-width: 991px) {
+            #section2 {
+                text-align:center;
+            }
+        }
         h3 {
             padding-top: 26px;
             font-size: 30px;
             font-family: 'segoe ui';
         }
+        @media screen and (max-width: 991px) {
+            .alignehrh3 {
+                padding-left: 40px;
+            }
+        }
+        
 
         @media screen and (max-width: 991px) {
             #myBtnContainer {
@@ -216,6 +232,12 @@ body {
             height: 68%;
             margin-top: 6%;
         }
+        @media screen and (max-width: 991px) {
+            #video {
+                margin-bottom: 7%;
+            }
+        }
+        
 
         button {
             width: 30%;
@@ -229,6 +251,13 @@ body {
     #section4 {
         height: 305px;
         background-color: #4bcaff;
+        
+        @media screen and (max-width: 991px) {
+            #section4 {
+                height: 338px;
+            }
+        }
+         
 
         h3 {
             font-size: 30px;
@@ -377,7 +406,10 @@ body {
         .btnsubmit {
             margin-top: 20px;
         }
-
+        @media screen and (max-width: 991px) {
+            .btnsubmit {
+              width: 92vw;
+              }
 
         button {
             background-color: #4bcaff;
@@ -424,4 +456,5 @@ body {
         .firstlink {
             padding-left: 10px !important;
         }
+    }
     }
