@@ -85,6 +85,11 @@ body header #hero h1 {
   font-size: 42px;
   font-family: 'segoe ui';
 }
+/* @media screen and (min-width:350px) and (max-width: 812px){
+  body header h1{
+    font-size: 15px !important;
+  }
+} */
 
 @media screen and (max-width: 768px) {
   body header #hero h1 {
@@ -97,16 +102,22 @@ body header #hero h1 {
     font-size: 20px;
   }
 }
+@media screen and (max-width:568px){
+  body header #hero h1{
+    font-size:16px;
+  }
+}
+
 
 body #section1 {
   height: 400px;
   background-color: #4bcaff;
   color: white;
 }
-@media screen and (max-width: 991px) {
- body #section1 {
-   height: 799px;
-   }
+@media screen and (max-width: 991px){
+body #section1 {
+    height: 868px;
+}
 }
 
 body #section1 h2 {
@@ -122,6 +133,14 @@ body #section1 p {
   font-family: 'segoe ui';
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  body #section1 p  {
+    
+    font-size: 20px;
+    
+  }
+  }
+
 body #section1 h3 {
   padding-top: 24px;
   font-size: 24px;
@@ -131,16 +150,26 @@ body #section2 {
   height: 840px;
   background-color: white;
 }
-@media screen and (max-width: 991px) {
-  body #section2 {
-      text-align:center;
+/* @media screen and (max-width: 991px) {
+  body #section2 #myBtnContainer{
+      display: block !important
   }
-}
+} */
+
 body #section2 h3 {
   padding-top: 26px;
   font-size: 30px;
   font-family: 'segoe ui';
 }
+/* @media screen and (max-width: 1024px) and (min-width: 768px){
+  body #section1  {
+    position: relative;
+    right: 27%
+    font-size: 20px;
+    
+  }
+  } */
+
 body #section2 .alignehrh3{
   padding-left: 25px;
 }
@@ -154,8 +183,8 @@ body #section2 .alignehrh3{
 @media screen and (max-width: 991px) {
   body #section2 #myBtnContainer {
     padding-top: 2%;
-    display: flex !important;
-    flex-direction: row !important;
+    /* display: flex !important;
+    flex-direction: row !important; */
   }
 }
 
@@ -193,6 +222,41 @@ body #section3 {
   min-height: 472px;
 }
 
+@media screen and (min-width: 813px) and (max-width: 1025px){
+  body #section3{
+      min-height: 847px;
+  }
+ 
+}
+
+
+
+@media screen and (min-width:350px) and (max-width: 812px){
+  body #section3{
+    min-height: 585px;
+  }
+}
+
+@media screen and (min-width:315px) and (max-width: 812px){
+  body #section3 #video{
+    position: inherit !important;
+    top: 0vh !important;
+  }
+}
+
+
+/* @media screen and (min-width:350px) and (max-width: 812px){
+  body #section1 h1{
+    font-size: 15px;
+  }
+} */
+
+
+ @media screen and (max-width: 1367px) and (min-width: 767px){
+body #section3 {
+    min-height: 1005px;
+}
+}
 body #section3 h3 {
   font-size: 30px;
   font-family: 'segoe ui';
@@ -216,11 +280,33 @@ body #section3 #default {
   margin-top: 6%;
 }
 
+
+body #section3 #video{
+
+  position: absolute;
+  top: 10vh;
+
+}
+
 @media screen and (max-width: 991px) {
   body #section3 #video {
       margin-bottom: 7%;
   }
 }
+@media screen and (min-width: 813px) and (max-width: 1367px){
+  body #section3 #video{
+      position:absolute;
+      top:0vh;
+  }
+
+}
+@media screen and (min-width: 767px) and (max-width: 1367px){
+  body #section3 p{
+      font-size: 20px;
+  }
+
+}
+
 
 body #section3 button {
   width: 30%;
@@ -273,7 +359,7 @@ body #section5 {
 
 body #section5 #johndoe {
   padding-top: 38px;
-  padding-left: 9%;
+  
 }
 
 body #section5 h3 {
@@ -284,6 +370,8 @@ body #section5 h3 {
 body #section5 .listdescription #listsocial {
   font-size: 28px;
 }
+
+
 
 @media screen and (max-width: 991px) {
   body #section5 .listdescription #listsocial{
@@ -425,7 +513,8 @@ body #contact #exampleFormControlInput1 {
 
 
 body #contact #exampleFormControlInput1 {
-  width: 92vw;
+  width: 28vw;
+  /* width:69vw; */
 }
 
 body footer {
